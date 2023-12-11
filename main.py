@@ -49,7 +49,7 @@ async def periodic(ctx, element_name_or_symbol_or_number: str):
             break
 
     if element:
-        electron_config = element["electron_configuration_semantic"].replace("1s", "1s²").replace("2s", "2s²").replace("2p", "2p⁶").replace("3s", "3s²").replace("3p", "3p⁶").replace("4s", "4s²").replace("3d", "3d¹⁰").replace("4p", "4p⁶").replace("5s", "5s²").replace("4d", "4d¹⁰").replace("5p", "5p⁶").replace("6s", "6s²").replace("4f", "4f¹⁴").replace("5d", "5d¹⁰").replace("6p", "6p⁶").replace("7s", "7s²").replace("5f", "5f¹⁴").replace("6d", "6d¹⁰").replace("7p", "7p⁶")
+        
 
         embed = discord.Embed(title=f"Element: {element['name']} ({element['symbol']})", color=0x3498db)
         embed.set_thumbnail(url=element["image"]["url"]) 
