@@ -1,0 +1,7 @@
+discord
+discord.py
+chess.com
+bs4	
+chess
+praw
+requests
